@@ -4,17 +4,17 @@ import './Newsletter.css'
 
 const Newslater = () => {
 
-    // modal elements
-    const modal = document.querySelector('[data-modal]');
-    const modal_CloseBtn = document.querySelector('[data-modal-close]');
-    const modal_CloseOverlay = document.querySelector('[data-modal-overlay]');
+    // // modal elements
+    // const modal = document.querySelector('[data-modal]');
+    // const modal_CloseBtn = document.querySelector('[data-modal-close]');
+    // const modal_CloseOverlay = document.querySelector('[data-modal-overlay]');
 
-    // modal close function
-    const modalCloseFunc = function () { modal.classList.add('closed') }
+    // // modal close function
+    // const modalCloseFunc = function () { modal.classList.add('closed') }
 
-    // modal eventListener
-    modal_CloseOverlay.addEventListener('click', modalCloseFunc);
-    modal_CloseBtn.addEventListener('click', modalCloseFunc);
+    // // modal eventListener
+    // modal_CloseOverlay.addEventListener('click', modalCloseFunc);
+    // modal_CloseBtn.addEventListener('click', modalCloseFunc);
 
   return (
     
